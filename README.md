@@ -25,6 +25,13 @@ Here is the code I developed
 ```c
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * 
+ * Return: 0 if scc.
+ * 
+ * Description: converts characters to ASCII and back 
+ */
 int main()
 {
     int value;
