@@ -1,5 +1,5 @@
  /* dark */
- /* Set styles for the entire page in dark mode */
+ /*entire page */
  body.dark-mode {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
     color: #f5f5f5; /* a lighter shade of grey */
  }
 
- /* Set styles for the container in dark mode */
+ /* the container */
  body.dark-mode #container {
     position: relative;
     min-height: 90vh;
@@ -22,45 +22,41 @@
      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.433);
  }
 
- /* Set styles for the header in dark mode */
+ /* the header */
 
  body.dark-mode #container h1 {
      color: #f5f5f5;
  }
 
- /* Set styles for the introduction paragraph in dark mode */
+ /* the  paragraph in cont  */
  body.dark-mode #container p {
      color: #ffffff;
      /* a lighter shade of grey */
  }
 
- /* Set styles for the form in dark mode */
+ /* the form in */
  body.dark-mode form {
      color: #f5f5f5;
-     /* a lighter shade of grey */
  }
 
- /* Set styles for the radio buttons in dark mode */
+ /*  the radio buttons  */
  body.dark-mode input[type="radio"] {
      border-color: #f5f5f5;
-     /* a lighter shade of grey */
  }
 
- /* Set styles for the radio button when checked in dark mode */
+ /*  the radio button when checked */
  body.dark-mode input[type="radio"]:checked {
      border-color: #f5f5f5;
-     /* a lighter shade of grey */
      background-color: #f5f5f5;
-     /* a lighter shade of grey */
  }
 
- /* Set styles for the label of the radio buttons in dark mode */
+ /*  the label of the radio buttons */
  body.dark-mode label[for="code"],
  body.dark-mode label[for="char"] {
      color: #ffffff;
      /* a lighter shade of grey */
  }
-   /* style for enter ur input */
+   /*  enter ur input */
    body.dark-mode label[for="input"] {
     display: block;
     margin-bottom: 10px;
@@ -93,7 +89,7 @@
     background-color: #aca9a9;
   }
   
- /* styles for the submit button  */
+ /* submit button  */
  body.dark-mode input[type="submit"] {
     display: block;
     margin: 20px auto;
@@ -110,19 +106,18 @@
     background-color: #232222;
   }
 
- /* styles for the result paragraph */
+ /* result paragraph */
  body.dark-mode #result {
      color: #f5f5f5;
-     /*a lighter shade of grey */
  }
 
- /* styles for the error paragraph */
+ /* the error paragraph */
  body.dark-mode #error {
      color: #ff7f7f;
      /* a red-ish color */
  }
 
- /* styles for the mode switch button  */
+ /* the mode switch button  */
  body.dark-mode #mode-switch {
   display: block;
   margin: 20px auto;
