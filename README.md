@@ -10,7 +10,7 @@ Our easy-to-use converter allows you to quickly and accurately convert any text 
 * User-friendly interface that makes it easy to use for anyone.
 * Easy to integrate with your existing projects or applications.
 * Comprehensive support for a wide range of programming languages and platforms.
-* With ASCII Converter, you can streamline your workflow and save time by quickly and accurately converting ASCII code to text and vice versa. Our tool is * * * perfect for web developers, programmers, and anyone who needs to work with ASCII code on a regular basis.
+* With ASCII Converter, you can streamline your workflow and save time by quickly and accurately converting ASCII code to text and vice versa. Our tool is * * perfect for web developers, programmers, and anyone who needs to work with ASCII code on a regular basis.
 
 One of the unique features of ASCII Converter is that you can switch between light mode and dark mode with just one click. This makes it easy for you to work with the tool in any environment and under any lighting conditions. Whether you prefer a brighter background or a darker one, ASCII Converter has got you covered.
 
