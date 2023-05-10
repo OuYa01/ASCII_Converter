@@ -178,6 +178,22 @@ input[type="submit"]:hover {
   margin-top: 30px;
 }
 
+/* download btn */
+a.download-link {
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+a.download-link:hover {
+  color: #000;
+}
+
+
 /* donate */
 
 .btn {
@@ -570,6 +586,6 @@ footer a {
   body.dark-mode footer a {
     margin: 0 10px;
   }
- 
+  
   /* dark */
-  }
+  } 
