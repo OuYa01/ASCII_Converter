@@ -169,7 +169,7 @@
    font-weight: bolder;
    box-shadow: 0 2px 0 2px #000;
    margin: 0 auto;
-   display: block;
+   display: inline-block;
    z-index: 1;
  }
 
@@ -215,7 +215,7 @@
    font-weight: bolder;
    box-shadow: 0 2px 0 2px #000;
    margin: 0 auto;
-   display: block;
+   display: inline-block;
    z-index: 1;
    bottom: 10px;
  }
@@ -441,7 +441,7 @@
     font-weight: bolder;
     box-shadow: 0 2px 0 2px #000;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
     z-index: 1;
   }
  
@@ -487,7 +487,7 @@
     font-weight: bolder;
     box-shadow: 0 2px 0 2px #000;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
     z-index: 1;
     bottom: 10px;
   }

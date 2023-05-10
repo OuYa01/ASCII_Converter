@@ -195,7 +195,7 @@ input[type="submit"]:hover {
   font-weight: bolder;
   box-shadow: 0 2px 0 2px #000;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
   z-index: 1;
 }
 
@@ -241,7 +241,7 @@ input[type="submit"]:hover {
   font-weight: bolder;
   box-shadow: 0 2px 0 2px #000;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
   z-index: 1;
   bottom: 10px;
 }
@@ -471,7 +471,7 @@ footer a {
     font-weight: bolder;
     box-shadow: 0 2px 0 2px #000;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
     z-index: 1;
   }
  
@@ -517,7 +517,7 @@ footer a {
     font-weight: bolder;
     box-shadow: 0 2px 0 2px #000;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
     z-index: 1;
     bottom: 10px;
   }
