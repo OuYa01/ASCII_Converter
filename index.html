@@ -3,15 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>ASCII Converter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" media="screen">
-  <link rel="stylesheet" href="dark_mode.css" media="(prefers-color-scheme: dark)">
-    <!-- icons -->
+  <title>Ouyabyte</title>
+  <link rel="stylesheet" href="style2.css">
   <link rel="stylesheet" href="icon-font.css">
   <script src="https://kit.fontawesome.com/b1429f0600.js" crossorigin="anonymous"></script>
-  <!-- icons -->
-  <link rel="stylesheet" href="style_for_phonr.css" media="screen">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="backg/programming-code-signs.png">
   <meta property="og:title" content="ASCII Converter" />
   <meta property="og:description" content="ASCII Converter is a powerful online tool that allows you to easily convert text or characters to ASCII code and vice versa. With its user-friendly interface and intuitive design, ASCII Converter makes it easy for anyone to quickly and accurately convert ASCII code to text and vice versa. Whether you're a programmer, web developer, or just someone who needs to work with ASCII code, ASCII Converter is the perfect tool for you. With its lightning-fast performance and accurate results, you can trust ASCII Converter to deliver the best results every time. Try it today and experience the power of ASCII Converter for yourself!" />
@@ -19,80 +15,35 @@
   <meta property="og:url" content="https://asciiconverter.epizy.com/" />
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJXQQN6WZY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QJXQQN6WZY');
-</script>
-  <script src="script.js">
-  </script>
-    
 </head>
 
-<body>
-
-  <div id="container">
-    <h1>ASCII Converter</h1>
-    <p>Hello! With this program, you can convert between ASCII codes and characters.</p>
-    <form onsubmit="return false;">
-      <h2>Choose what you want to do:</h2>
-      <input type="radio" id="code" name="choice" value="code" checked>
-      <label for="code">Convert ASCII code to character</label><br>
-      <input type="radio" id="char" name="choice" value="char">
-      <label for="char">Convert character to ASCII code</label><br>
-      <label for="input">Enter your input:</label><br>
-      <input type="text" id="input"><br>
-      <input type="submit" value="Convert" onclick="convert()">
-    </form>
-    <div class="result">
-      <p id="result"></p>
-      <span id="error"></span>
+<body class="new">
+  <header class="header">
+    <div class="logo">
+      <img src="backg/programming-code-signs.png" alt="Logo">
+      <h1>ASCII Converter</h1>
     </div>
-      <!-- dark mode -->
-  <button id="mode-switch" onclick="toggleMode()">Switch to Dark Mode</button>
-  </div>
+  </header>
 
-
-
-  <div class="button-container">
-    <!-- Twitter -->
-    <a href="mailto:ouya200217@gmail.com" target="_blank">
-      <button class="btn2">
-        Contact me
-      </button>
-    </a>
-  
-    <!-- Donate -->
-    <a href="https://www.paypal.me/OUSSAMALAAMRI" target="_blank">
-      <button class="btn">
-        Buy Me A Coffee
-      </button>
-    </a>
-
-    
-  </div>
-  
-
-
-  
-
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="welcome">Welcome to our website!<br>Convert between ASCII codes and characters.</h2>
+        <p>With ASCII Converter, easily convert text or characters to ASCII code and vice versa.</p>
+        <a href="converter.html" class="btn">Get Started</a>
+      </div>
+    </section>
+  </main>
 
 <!-- footer -->
 <footer>
-  <p class="ppp">To utilize this tool offline, please download our app for android </p>
-  <a href="backg/app-release.apk" class="download-link" download>download here</a>
-  <p>&copy; 2023 OuYa | All Rights Reserved</p>
-  <a href="https://github.com/ouya01" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
-  <a href="https://twitter.com/OussamaLaamri" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
-  <a href="mailto:ouya200217@gmail.com" target="_blank"><i class="fa-solid fa-envelope" style="color: #000000;"></i></a>
-</footer>
-<!-- fotter -->
-
-
-
+    <p>&copy; 2023 OuYa | All Rights Reserved</p>
+    <a href="https://github.com/ouya01" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    <a href="https://twitter.com/OussamaLaamri" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+    <a href="mailto:ouya200217@gmail.com" target="_blank"><i class="fa-solid fa-envelope" style="color: #000000;"></i></a>
+  </footer>
+  <!-- fotter -->
+  
 </body>
 
 </html>
-</body>

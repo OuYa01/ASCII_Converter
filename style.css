@@ -156,7 +156,7 @@ input[type="submit"]:hover {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
-  position:-webkit-sticky;
+  position: -webkit-sticky;
   bottom: 280px;
   right: 0%;
   transition: background-color 0.2s ease-in-out;
@@ -315,9 +315,9 @@ footer a {
 }
 
 
- /* newww part of codee just a test */
- /* dark */
- @media only screen and (max-width: 420px) {
+/* newww part of codee just a test */
+/* dark */
+@media only screen and (max-width: 420px) {
   body.dark-mode {
     margin: 0;
     padding: 0;
@@ -326,7 +326,7 @@ footer a {
     color: #f5f5f5;
     /* a lighter shade of grey */
   }
- 
+
   /* the container */
   body.dark-mode #container {
     position: relative;
@@ -340,42 +340,42 @@ footer a {
     background-color: rgb(18, 18, 19);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.433);
   }
- 
+
   /* the header */
- 
+
   body.dark-mode #container h1 {
     color: #f5f5f5;
   }
- 
+
   /* the  paragraph in cont  */
   body.dark-mode #container p {
     color: #ffffff;
     /* a lighter shade of grey */
   }
- 
+
   /* the form in */
   body.dark-mode form {
     color: #f5f5f5;
   }
- 
+
   /*  the radio buttons  */
   body.dark-mode input[type="radio"] {
     border-color: #f5f5f5;
   }
- 
+
   /*  the radio button when checked */
   body.dark-mode input[type="radio"]:checked {
     border-color: #f5f5f5;
     background-color: #f5f5f5;
   }
- 
+
   /*  the label of the radio buttons */
   body.dark-mode label[for="code"],
   body.dark-mode label[for="char"] {
     color: #ffffff;
     /* a lighter shade of grey */
   }
- 
+
   /*  enter ur input */
   body.dark-mode label[for="input"] {
     display: block;
@@ -385,7 +385,7 @@ footer a {
     position: relative;
     bottom: -20px;
   }
- 
+
   body.dark-mode input[type="text"] {
     width: 80%;
     max-width: 400px;
@@ -398,17 +398,17 @@ footer a {
     background-color: #aca9a9;
     transition: all 0.3s ease-in-out;
   }
- 
+
   body.dark-mode input[type="text"]:hover {
     border-bottom: 2px solid #ffffff;
   }
- 
+
   body.dark-mode input[type="text"]:focus {
     outline: none;
     border-bottom: 2px solid #ffffff;
     background-color: #aca9a9;
   }
- 
+
   /* submit button  */
   body.dark-mode input[type="submit"] {
     display: block;
@@ -422,22 +422,22 @@ footer a {
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
   }
- 
+
   body.dark-mode input[type="submit"]:hover {
     background-color: #232222;
   }
- 
+
   /* result paragraph */
   body.dark-mode #result {
     color: #f5f5f5;
   }
- 
+
   /* the error paragraph */
   body.dark-mode #error {
     color: #ff7f7f;
     /* a red-ish color */
   }
- 
+
   /* the mode switch button  */
   body.dark-mode #mode-switch {
     display: block;
@@ -449,18 +449,18 @@ footer a {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
-    position:-webkit-sticky;
+    position: -webkit-sticky;
     bottom: 280px;
     right: 0%;
     transition: background-color 0.2s ease-in-out;
     display: block;
   }
- 
+
   body.dark-mode #mode-switch:hover {
     background-color: #232222;
   }
- 
- 
+
+
   .button-container {
     display: flex;
     justify-content: center;
@@ -469,9 +469,9 @@ footer a {
     align-items: center;
     margin-top: 30px;
   }
- 
+
   /* donate */
- 
+
   body.dark-mode .btn {
     padding: 1.1em 2em;
     background: none;
@@ -490,7 +490,7 @@ footer a {
     display: inline-block;
     z-index: 1;
   }
- 
+
   body.dark-mode .btn:before {
     content: "";
     position: absolute;
@@ -501,22 +501,22 @@ footer a {
     transform: skewX(30deg) translate(-150%, -50%);
     transition: all 0.5s;
   }
- 
+
   body.dark-mode .btn:hover {
     background-color: #4cc9f0;
     color: #fff;
     box-shadow: 0 2px 0 2px #0d3b66;
   }
- 
+
   body.dark-mode .btn:hover::before {
     transform: skewX(30deg) translate(150%, -50%);
     transition-delay: 0.1s;
   }
- 
+
   body.dark-mode .btn2:active {
     transform: scale(0.9);
   }
- 
+
   /* twitter */
   body.dark-mode .btn2 {
     padding: 1.1em 2em;
@@ -537,7 +537,7 @@ footer a {
     z-index: 1;
     bottom: 10px;
   }
- 
+
   body.dark-mode .btn2:before {
     content: "";
     position: absolute;
@@ -548,22 +548,22 @@ footer a {
     transform: skewX(30deg) translate(-150%, -50%);
     transition: all 0.5s;
   }
- 
+
   body.dark-mode .btn2:hover {
     background-color: #4cc9f0;
     color: #fff;
     box-shadow: 0 2px 0 2px #0d3b66;
   }
- 
+
   body.dark-mode .btn2:hover::before {
     transform: skewX(30deg) translate(150%, -50%);
     transition-delay: 0.1s;
   }
- 
+
   body.dark-mode .btn2:active {
     transform: scale(0.9);
   }
- 
+
   body.dark-mode footer {
     position: absolute;
     bottom: 0;
@@ -571,7 +571,7 @@ footer a {
     height: 30px;
     background-color: #f2f2f200;
   }
- 
+
   /* footer */
   body.dark-mode footer {
     position: relative;
@@ -582,10 +582,9 @@ footer a {
     display: block;
     /* background-color: #f1f1f1; */
   }
- 
+
   body.dark-mode footer a {
     margin: 0 10px;
   }
-  
+}
   /* dark */
-  } 

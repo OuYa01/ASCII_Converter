@@ -1,0 +1,134 @@
+/* Add your desktop-specific styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+    
+   .header {
+    background-color: #7B8FA1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   }
+    
+   .logo {
+    display: flex;
+    align-items: center;
+   }
+    
+   .logo img {
+    height: 50px;
+    margin-right: 20px;
+   }
+    
+   .navigation {
+    display: flex;
+    align-items: center;
+   }
+    
+   .navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+   }
+    
+   .navigation a:hover {
+    color: #7692ac;
+   }
+    
+   .hero {
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+   }
+    
+   .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: calc(100vh / 4);
+    text-align: center;
+   }
+    
+   .welcome {
+    font-size: 3rem;
+    color:#333 ;
+    margin-bottom :20px ;
+    font-weight:bold
+   }
+    
+   .btn {
+    display:inline-block ;
+    background-color:#7692ac ;
+    color:white ;
+    padding :12px 24px ;
+    border :none ;
+    border-radius :4px ;
+    cursor :pointer ;
+    margin-top :20px ;
+    transition :background-color .3s ;
+    text-decoration :none ;
+    font-size :1.2rem ;
+   }
+    
+   .btn:hover {
+    background-color:#45a049 ;
+   }
+   
+   footer{
+    background-color:#7B8FA1 ;
+    color:white ;
+    text-align:center ;
+    padding :20px ;
+    margin-top :30px ;
+   }
+   
+   @media screen and (max-width: 844px) {
+    /* Add your mobile-specific styles here */
+    .header {
+    flex-direction: column;
+    padding: 10px;
+    }
+    
+    .logo img {
+    height: 50px;
+    }
+    
+    .navigation {
+    margin-top: 20px;
+    display:flex ;
+    flex-direction :column ;
+    align-items:center ;
+    }
+    
+    .navigation a {
+    margin-bottom :15px ;
+    font-size :1.5rem ;
+    }
+    
+    .hero-content {
+    padding-top :calc(100vh /6) ;
+    }
+    
+    .welcome {
+    font-size :2.5rem ;
+    font-weight:bold
+    }
+    
+    .btn {
+    padding :15px 30px ;
+    font-size :1.5rem ;
+    border-radius :20px
+    }
+   
+    footer{
+      padding :10px ;
+      text-align:center ;
+      font-size :1.2rem
+    }
+   }
+   
